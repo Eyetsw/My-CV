@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^localhost$
+RewriteRule ^(.*)$ http://localhost/allmy/$1 [L]
